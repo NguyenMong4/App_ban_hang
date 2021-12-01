@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="5dp"
+                    android:id="@+id/imagehinhsp"
+                    android:scaleType="fitXY"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:id="@+id/txttensp"
+                    android:textColor="#0b0b0b"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Tên sản phẩm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/txtgia"
+                    android:textColor="#e40b0b"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="Giá"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/imageviewnew"
+                android:layout_gravity="top|right"
+                android:src="@drawable/iconnew"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
